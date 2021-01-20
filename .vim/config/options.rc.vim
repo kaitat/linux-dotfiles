@@ -9,7 +9,22 @@ set scrolloff=5
 set sidescrolloff=6
 
 " バックアップを作成しない
-set nobackup
+"set nobackup
+
+" undoファイル作成しない
+"set noundofile
+
+" スワップファイルを作らない
+"set noswapfile
+
+" swpファイル出力先
+set directory=~/.vim/tmp/
+
+" バックアップファイル出力先
+set backupdir=~/.vim/tmp/
+
+" undoファイル出力先
+set undodir=~/.vim/tmp/
 
 " バックスペースでなんでも消せるように
 set backspace=indent,eol,start
@@ -51,9 +66,6 @@ set clipboard=unnamed
 set wildmode=longest:full,full
 set wildmenu
 set wildignorecase
-
-" スワップファイルを作らない
-set noswapfile
 
 " 折り返さない
 " set nowrap

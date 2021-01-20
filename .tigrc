@@ -19,7 +19,7 @@ set line-graphics = utf-8
 
 set status-show-untracked-files = yes
 
-set diff-view = line-number:display=yes text:commit-title-overflow=true
+# set diff-view = line-number:display=yes text:commit-title-overflow=true
 
 #set mouse = true
 

@@ -22,6 +22,8 @@ export LANG=ja_JP.UTF-8
 
 # パスを追加したい場合
 export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 export PATH="/usr/local/bin:$PATH"
 export PATH="$HOME/.pyenv/bin:$PATH"
 export PATH="$HOME/.anyenv/bin:$PATH"
