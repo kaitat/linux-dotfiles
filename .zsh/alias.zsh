@@ -106,12 +106,7 @@ alias stgr='find . -type f | xargs grep'
 #lsの進化版
 alias ll='ls -alFG'
 #ディレクトリに移動
-alias cdrails='cd ~/rails-practice'
-alias cdreact='cd ~/JS-practice'
-alias cdguru='cd ~/rails-practice/myapp/guru'
-alias cdchoco='~/rails-practice/choco/choco'
-alias cdsales='cd ~/baseconnect/projects/sales/sales'
-alias cdbc='cd ~/baseconnect/projects/Baseconnect/Baseconnect'
+alias cddot='cd ~/git/chain_dot'
 #短縮
 alias rs='rails s'
 # teypescript on react
@@ -129,6 +124,6 @@ alias back='pushd'
 alias diff='diff -U1'
 
 # nvim 開かせる
-# alias vi='nvim'
+alias vi='vim'
 # ++++++++++++++++++++++++++++++++++
 

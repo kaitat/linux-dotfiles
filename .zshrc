@@ -29,6 +29,10 @@ export PATH="$HOME/.pyenv/bin:$PATH"
 export PATH="$HOME/.anyenv/bin:$PATH"
 export XDG_CONFIG_HOME=/home/kaito/.config
 export XDG_CACHE_HOME=/home/kaito/.cache
+export PYENV_ROOT=$HOME/.pyenv
+export PATH=$PYENV_ROOT/bin:$PATH
+export PATH=$PATH:/usr/local/go/bin
+eval "$(pyenv init -)"
 
 # 色を使用
 autoload -Uz colors

@@ -61,7 +61,7 @@ nnoremap k gk
 
 "" terminalモード
 " <ESC>: terminalモードからコマンドモードに変更
-"tnoremap <silent> <ESC> <C-\><C-n>
+tnoremap <silent> <ESC> <C-w><C-n>
 
 " 無効化
 nnoremap <C-j> j
